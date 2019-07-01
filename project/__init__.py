@@ -4,7 +4,8 @@
 import os  # new
 from flask import Flask, jsonify
 from flask_restful import Resource, Api
-import sys
+from flask_sqlalchemy import SQLAlchemy  # new
+# import sys
 
 # instantiate the app
 app = Flask(__name__)
